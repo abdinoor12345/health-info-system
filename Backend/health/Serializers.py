@@ -20,3 +20,7 @@ class EnrollmentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Enrollment
         fields = ['id', 'client', 'program', 'date_enrolled']
+class EnrollmentCreateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Enrollment
+        fields = ['client', 'program']

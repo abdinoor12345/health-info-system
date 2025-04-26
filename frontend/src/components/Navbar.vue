@@ -9,11 +9,9 @@
           <div class="hidden md:flex space-x-6 mt-0">
             <RouterLink to="/" class="hover:text-gray-300">Home</RouterLink>
             <RouterLink to="/programs" class="hover:text-gray-300">Programs</RouterLink>
-            <RouterLink to="/hardwares" class="hover:text-gray-300">Clients</RouterLink>
-            <RouterLink to="/programmings" class="hover:text-gray-300">Register Cients</RouterLink>
-            <RouterLink to="/trendingtech" class="hover:text-gray-300">Enroll Clients</RouterLink>
-            <RouterLink to="/contact" class="hover:text-gray-300">Profile</RouterLink>
-             <button v-if="isAuthenticated" @click="logout" class="text-red-500 hover:text-red-700">Logout</button>
+            <RouterLink to="/clients" class="hover:text-gray-300">Clients</RouterLink>
+             <RouterLink to="/enrollments" class="hover:text-gray-300">Enroll Clients</RouterLink>
+              <button v-if="isAuthenticated" @click="logout" class="text-red-500 hover:text-red-700">Logout</button>
           </div>
   
           <!-- Mobile Menu Button -->
