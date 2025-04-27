@@ -123,3 +123,28 @@ Deployment on Vercel (Frontend) and Railway/Render (Backend)
 ](screenshots/programform.png)
 
 
+ 🧑‍⚕️ Clients and Programs Management
+In this system, both listing and creation of Clients and Health Programs are seamlessly handled on the same page.
+
+✅ Integrated Views
+
+For Clients, the system displays a list of all registered clients along with an option to add a new client without leaving the page.
+
+For Health Programs, users can view all existing programs and create a new program in the same interface.
+
+✅ Dynamic Form Visibility
+
+A toggle button is available to show or cancel the creation forms for both Clients and Programs.
+
+This keeps the pages clean, minimal, and focused until the user explicitly wants to perform a creation action.
+
+✅ Enhanced User Workflow
+
+Doctors (users) can quickly view, create, and manage data from a single page without navigating between multiple sections.
+
+This improves speed, reduces clicks, and provides a better user experience.
+
+✅ Demo Available
+
+The behavior of the Client and Program management pages is shown clearly in the PowerPoint presentation with screenshots and a video demonstration.
+
